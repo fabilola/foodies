@@ -1,0 +1,55 @@
+.recipeCard {
+    padding: 1rem;
+
+    width: 50rem;
+    max-width: 30%;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.recipeCard__title{
+    text-align: left;
+    font-weight: bold;
+}
+
+.recipeCard__bottom{
+    margin-bottom: 0!important;
+}
+
+.recipeCard__description {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.MuiCard-root{
+    box-shadow: unset !important;
+    border: 0!important;
+}
+
+.recipeCard__icons{
+    height: 20px !important;
+}
+
+svg{
+    padding-right: 5px;
+}
+.MuiCardActions-root{
+    justify-content:space-between ;
+    padding: 0!important;
+}
+
+.recipeCard__description__box{
+    display: flex;
+    align-items: center;
+}
+
+.recipeCard__img{
+    height: 140px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.MuiCardContent-root {
+    padding: 0 !important;
+}

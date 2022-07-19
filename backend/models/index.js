@@ -1,0 +1,11 @@
+const mongoose = require("mongoose");
+mongoose.Promise = global.Promise;
+require('dotenv').config();
+const db = {};
+db.mongoose = mongoose;
+db.url = process.env.MONGO_URL;
+db.recipes = require("./recipe.model.js")(mongoose);
+db.ratings = require("./rating.model.js")(mongoose);
+db.users = require("./user.model.js")(mongoose);
+db.favorites = require("./favorite.model.js")(mongoose);
+module.exports = db;

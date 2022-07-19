@@ -1,0 +1,9 @@
+.google-link{
+    text-decoration: none;
+    display: block;
+    margin: 10px;
+    text-align: left;
+}
+.login__img{
+    border-radius: 12px;
+}

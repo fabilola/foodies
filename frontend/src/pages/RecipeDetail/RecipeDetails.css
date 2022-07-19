@@ -1,0 +1,34 @@
+.detail__img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.detail__alignment{
+    text-align: left;
+}
+
+.detail__alignment > div {
+    margin-right: 8px;
+}
+
+.detail__creator{
+    margin-top: 15px!important;
+}
+
+.detail__creator__click{
+    cursor: pointer;
+}
+
+.detail__creator__click:hover{
+    color: #fe4600;
+}
+
+.detail__flex{
+    display: flex;
+}
+
+.detail__spacing{
+    margin-left: 10px !important;
+}

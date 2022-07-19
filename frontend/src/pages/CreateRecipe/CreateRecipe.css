@@ -1,0 +1,36 @@
+.create__flex {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+.create__flex > div {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.create__spacing {
+    margin-bottom: 40px !important;
+}
+
+.create__button__spacing {
+    margin-top: 10px !important;
+}
+
+.create__banner{
+    background: orangered;
+    height: 50px;
+    padding:20px;
+    margin: 20px;
+    border-radius: 12px;
+}
+
+.isEditImage {
+    height: 140px;
+    width: 350px;
+    object-fit: cover;
+}
+
+.create__block{
+    display: block;
+}
