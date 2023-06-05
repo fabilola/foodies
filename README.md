@@ -1,5 +1,5 @@
 # TDDD27_2022_project
-My project is called foodies and it is a where users can create an account and share recipes with other users.
+My project is called foodies and it is a platform where users can create an account and share recipes with other users.
 Users can create recipes, add them to their favorites, comment and rate them or share them via email with friends.
 
 ## Functional Specification
